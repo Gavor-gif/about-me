@@ -4,7 +4,7 @@ body {
   padding: 0; /* Remove default padding */
 }
 
-#hi, #name, #country, #colour {
+#hi, #name, #country, #colour, #age {
   text-align: center;
   font-family: "Playwrite AU SA", serif;
   font-optical-sizing: auto;
