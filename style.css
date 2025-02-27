@@ -4,8 +4,11 @@ body {
   padding: 0; /* Remove default padding */
 }
 #picture {
-	align: center;	
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
 }
+
 #hi, #name, #country, #colour, #age, #username {
   text-align: center;
   font-family: "Rubik", sans-serif;
