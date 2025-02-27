@@ -6,9 +6,9 @@ body {
 
 #hi, #name, #country, #colour, #age, #username {
   text-align: center;
-  font-family: "Playwrite AU SA", serif;
+  font-family: "Playwrite AU SA", cursive;
   font-optical-sizing: auto;
-  font-weight: normal;
+  font-weight: <weight>;
   font-style: normal;
   color: red;
   margin: 0; /* Remove margins between text elements */
@@ -51,9 +51,9 @@ li {
 #likes, #dislikes {
   color: red;
   text-align: center;
-  font-family: "Playwrite AU SA", serif;
+  font-family: "Playwrite AU SA", cursive;
   font-optical-sizing: auto;
-  font-weight: normal;
+  font-weight: <weight>;
   font-style: normal;
   margin: 0; /* Remove any margin */
   padding: 0; /* Remove any padding */
@@ -61,8 +61,10 @@ li {
 footer {
   text-align: center;
   color: white;
-  font-family: "Playwrite AU SA", serif;
-  font-size: 16px;
+  font-family: "Playwrite AU SA", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   margin-top: 20px;
 }
 
