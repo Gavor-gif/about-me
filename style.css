@@ -1,82 +1,84 @@
 body {
-  background-color: black;
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
 }
+
 #picture {
   display: block;
-  margin: 0 auto;
+  margin: 40px auto 20px;
   border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #ff4040;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#picture:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ff4040;
 }
 
 #hi, #name, #country, #colour, #age, #username {
   text-align: center;
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  color: red;
-  margin: 0; /* Remove margins between text elements */
-  padding: 0; /* Remove padding between text elements */
+  color: #ff4040;
+  margin: 5px 0;
+  padding: 0;
 }
 
 #hi {
   font-size: 60px;
+  font-weight: 700;
 }
 
 #name {
-  font-size: 60px;
+  font-size: 36px;
+  font-weight: 400;
 }
+
 #colour {
-	font-size: 60;
+  font-size: 28px;
 }
 
 #country {
-  font-size: 40px;
-}
-
-ul {
-  list-style-type: square;
-  padding-left: 20px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0; /* Remove margin from the ul element */
-  padding: 0; /* Remove padding from the ul element */
-}
-
-li {
-  margin-bottom: 0; /* Remove gap between list items */
-  color: tomato;
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  font-size: 24px;
 }
 
 #likes, #dislikes {
-  color: red;
+  color: #ff4040;
   text-align: center;
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  margin: 0; /* Remove any margin */
-  padding: 0; /* Remove any padding */
-}
-footer {
-  text-align: center;
-  color: white;
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  margin-top: 20px;
+  font-weight: 600;
+  font-size: 32px;
+  margin-top: 40px;
+  text-decoration: underline;
 }
 
-footer p {
-  margin: 0;
+ul {
+  list-style-type: none;
   padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  color: #ff8a80;
+  font-size: 22px;
+  padding: 6px 0;
+  transition: color 0.2s ease;
+}
+
+li:hover {
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  color: #aaa;
+  font-size: 14px;
+  margin-top: 40px;
+  padding-bottom: 20px;
 }
